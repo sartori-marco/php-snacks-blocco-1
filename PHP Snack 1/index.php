@@ -7,19 +7,19 @@ Olimpia Milano - Cantù | 55 - 60 -->
 $matches = [
   [
     'squadraCasa' => 'Milano',
-    'squadraOspite ' => 'Cantù',
+    'squadraOspite' => 'Cantù',
     'puntiCasa' => '50',
     'puntiOspite' => '52'
   ],
   [
     'squadraCasa' => 'Venezia',
-    'squadraOspite ' => 'Trieste',
+    'squadraOspite' => 'Trieste',
     'puntiCasa' => '60',
     'puntiOspite' => '72'
   ],
   [
     'squadraCasa' => 'Sassari',
-    'squadraOspite ' => 'Bologna',
+    'squadraOspite' => 'Bologna',
     'puntiCasa' => '80',
     'puntiOspite' => '92'
   ],
@@ -45,11 +45,11 @@ $matches = [
      $puntiCasa = $matches[$i]['puntiCasa'];
      $puntiOspite = $matches[$i]['puntiOspite']
 
-     ?>
+  ?>
 
-     <h1> <?php echo $casa . ' - '.  $ospite . ' - ' . ' | ' . $puntiCasa . ' - ' . $puntiOspite ; ?> </h1>
+     <h1> <?php echo $casa . ' - '.  $ospite . ' - ' . ' | ' . $puntiCasa . ' - ' . $puntiOspite ; } ?> </h1>
 
-   }
+
 
 
 
