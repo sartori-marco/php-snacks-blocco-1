@@ -47,7 +47,7 @@ $matches = [
 
   ?>
 
-     <h1> <?php echo $casa . ' - '.  $ospite . ' - ' . ' | ' . $puntiCasa . ' - ' . $puntiOspite ; } ?> </h1>
+     <h1> <?php echo $casa . ' - '.  $ospite  . ' | ' . $puntiCasa . ' - ' . $puntiOspite ; } ?> </h1>
 
 
 
