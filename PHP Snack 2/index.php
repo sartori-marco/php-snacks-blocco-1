@@ -12,13 +12,13 @@ $eta = $_GET['eta'];
 
 $accesso = '';
 
-$accesso = 'Inserisci un nome con più di 3 caratteri';
 
-if (strlen($nome) < 3 || !strpos($mail, '@') || !strpos($mail, '.') || !isnumeric($eta)) {
-  $accesso = 'Accesso negato';
+
+if (strlen($nome) > 3 && strpos($mail, '@') && strpos($mail, '.') && isnumeric($eta)) {
+  $accesso = 'Accesso riuscito';
 }
 else {
-  $accesso = 'Accesso riuscito';
+  $accesso = 'Accesso negato';
 }
 
 
