@@ -14,7 +14,7 @@ $accesso = '';
 
 
 
-if (strlen($nome) > 3 && strpos($mail, '@') && strpos($mail, '.') && isnumeric($eta)) {
+if (strlen($nome) > 3 && strpos($mail, '@') && strpos($mail, '.') && is_numeric($eta)) {
   $accesso = 'Accesso riuscito';
 }
 else {
